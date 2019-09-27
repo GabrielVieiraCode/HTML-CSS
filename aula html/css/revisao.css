@@ -1,0 +1,101 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topo{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+.menu{
+    width: 1366px;
+    height: 50px;
+    margin: auto;
+}
+
+.menu ul{
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 30px;
+}
+
+.menu a:hover{
+    background: rgb(255, 0, 0);
+    color: black;
+}
+.destaque{
+    width: 100%;
+    height: 532px;
+}
+.destaque img{
+    width: 100%;
+    
+}
+.conteudo{
+    width: 100%;
+    height: 700px;
+    }
+.loja{
+    width: 1366px;
+    margin: 0 auto;
+}
+.loja h1 {
+    color: black;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.loja p{
+    color: black;
+    font-size: 20px;
+}
+.categorias{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .caixa{
+        width: 25%;
+        height: 300px;
+    }
+    .caixa h2{
+        font-size: 24px;
+        color: red;
+        margin-bottom: 10px;
+    }
+    .caixa li{
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 500px;
+         color:#333;
+    }
+    .galeria{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .galeria img{
+        width: 20%;
+    }
+    .rodape{ width: 100%;
+        height: 50px;
+        background: #fd3333;
+        padding: 10px 0;
+            }
+    .rodape p {
+           color: white;
+           text-align: center
+               }/*margem fora da caixa, pedding dentro da caixa/*
+    

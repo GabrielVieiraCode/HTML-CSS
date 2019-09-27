@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap {
+    max-width: 768px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #0eff0e;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.esquerda span {
+    color: white;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.direita {
+    height: 100%;
+}
+
+.direita nav {
+    height: 100%;
+}
+
+.direita a {
+    height: 100%;
+}
+
+.direita button {
+    height: 100%;
+    min-width: 100px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.direita button:hover {
+    background: rgb(126, 126, 131);
+    color: white;
+}
+
+.banner {
+    background-image: url("../imagens/banner.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.main h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.conteiner img {
+    width: 200px;
+    height: 200px;
+    border-radius: 700px;
+}
+
+.box p {
+    font-size: 8pt;
+    font-weight: lighter;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.main button {
+    background: #0eff0e;
+    color: white;
+    border: 1px solid black;
+    height: 70px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15pt;
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main button:hover {
+    background-color: #10d410;
+}
+
+footer {
+    background: #afc5afb6;
+    height: 80px;
+}
+
+footer h3 {
+    font-weight: lighter;
+    font-size: 12pt;
+}
+
+table {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+td {
+    text-align: left;
+    padding-left: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    width: 160px;
+    height: 30px;
+}
+
+.main h2 {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
